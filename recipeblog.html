@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tasty Bites - Recipe Blog</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        header {
+            background-color: #ff7043;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff5722;
+            padding: 10px;
+            text-align: center;
+        }
+        nav input[type="text"] {
+            padding: 8px;
+            width: 60%;
+            border: none;
+            border-radius: 4px;
+        }
+        section {
+            padding: 20px;
+        }
+        .recipe {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .recipe h3 {
+            margin-top: 0;
+            color: #ff5722;
+        }
+        .rating {
+            color: gold;
+            font-size: 18px;
+        }
+        .submit-form {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin: 8px 0 4px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e64a19;
+        }
+        footer {
+            background-color: #ff7043;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍴 Tasty Bites</h1>
+        <p>Discover, Cook, and Share Delicious Recipes</p>
+    </header>
+
+    <nav>
+        <input type="text" placeholder="Search for recipes...">
+    </nav>
+
+    <section>
+        <h2>Featured Recipes</h2>
+        <div class="recipe">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.</p>
+            <div class="rating">⭐⭐⭐⭐☆</div>
+        </div>
+        <div class="recipe">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and moist chocolate cake topped with creamy frosting.</p>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="recipe">
+            <h3>Vegetable Stir Fry</h3>
+            <p>Healthy and colorful stir-fried veggies with soy sauce and garlic.</p>
+            <div class="rating">⭐⭐⭐☆☆</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Submit Your Recipe</h2>
+        <form class="submit-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="recipe-title">Recipe Title:</label>
+            <input type="text" id="recipe-title" placeholder="Enter recipe title">
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" rows="4" placeholder="List ingredients"></textarea>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" rows="4" placeholder="Write cooking steps"></textarea>
+
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tasty Bites. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

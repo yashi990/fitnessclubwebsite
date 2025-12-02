@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LearnHub - Online Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eef2f3;
+            color: #333;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #004c99;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .course {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .course h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .enroll-form {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin: 8px 0 4px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004c99;
+        }
+        .testimonial {
+            background-color: #fff;
+            border-left: 4px solid #0066cc;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        footer {
+            background-color: #004c99;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>📚 LearnHub</h1>
+        <p>Empowering students through online learning</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Enroll</a>
+        <a href="#">Testimonials</a>
+    </nav>
+
+    <section>
+        <h2>Available Courses</h2>
+        <div class="course">
+            <h3>Web Development Basics</h3>
+            <p>Learn HTML, CSS, and JavaScript to build your first website.</p>
+        </div>
+        <div class="course">
+            <h3>Python Programming</h3>
+            <p>Master Python fundamentals and start coding real-world applications.</p>
+        </div>
+        <div class="course">
+            <h3>Digital Marketing</h3>
+            <p>Understand SEO, social media, and online advertising strategies.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Enroll Now</h2>
+        <form class="enroll-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="course">Select Course:</label>
+            <select id="course">
+                <option>Web Development Basics</option>
+                <option>Python Programming</option>
+                <option>Digital Marketing</option>
+            </select>
+
+            <button type="submit">Enroll</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Student Testimonials</h2>
+        <div class="testimonial">"LearnHub helped me land my first job as a web developer!" - Priya Sharma</div>
+        <div class="testimonial">"The Python course was easy to follow and very practical." - Arjun Mehta</div>
+        <div class="testimonial">"I grew my business using the digital marketing strategies taught here." - Sneha Kapoor</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 LearnHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
