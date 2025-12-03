@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      display: flex;
+      margin: 20px;
+    }
+    .content {
+      flex: 3;
+      margin-right: 20px;
+    }
+    .sidebar {
+      flex: 1;
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    .post {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .post img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .tags {
+      margin-top: 10px;
+    }
+    .tags span {
+      background: #3498db;
+      color: white;
+      padding: 5px 10px;
+      margin-right: 5px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+    .comment-section {
+      margin-top: 20px;
+    }
+    .comment-section h3 {
+      margin-bottom: 10px;
+    }
+    .comment-section textarea, .comment-section input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .comment-section button {
+      background: #2c3e50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .comment-section button:hover {
+      background: #34495e;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Educational Blog</h1>
+    <p>Learn about Technology, Health, and Finance</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Technology</a>
+    <a href="#">Health</a>
+    <a href="#">Finance</a>
+  </nav>
+
+  <div class="container">
+    <div class="content">
+      <!-- Blog Post -->
+      <div class="post">
+        <h2>Latest in Technology</h2>
+        <img src="https://via.placeholder.com/600x300" alt="Technology Image">
+        <p>Technology is evolving rapidly with AI, blockchain, and cloud computing reshaping industries...</p>
+        <div class="tags">
+          <span>#AI</span>
+          <span>#Blockchain</span>
+          <span>#Cloud</span>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+          <h3>Leave a Comment</h3>
+          <input type="text" placeholder="Your Name">
+          <textarea rows="4" placeholder="Your Comment"></textarea>
+          <button>Submit</button>
+        </div>
+      </div>
+
+      <div class="post">
+        <h2>Health Tips for Busy People</h2>
+        <img src="https://via.placeholder.com/600x300" alt="Health Image">
+        <p>Maintaining health while working long hours requires balance, exercise, and mindful eating...</p>
+        <div class="tags">
+          <span>#Wellness</span>
+          <span>#Fitness</span>
+          <span>#Nutrition</span>
+        </div>
+      </div>
+
+      <div class="post">
+        <h2>Finance Basics Everyone Should Know</h2>
+        <img src="https://via.placeholder.com/600x300" alt="Finance Image">
+        <p>Understanding savings, investments, and budgeting is key to financial independence...</p>
+        <div class="tags">
+          <span>#Investing</span>
+          <span>#Budgeting</span>
+          <span>#Savings</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h3>Categories</h3>
+      <ul>
+        <li>Technology</li>
+        <li>Health</li>
+        <li>Finance</li>
+      </ul>
+
+      <h3>Popular Tags</h3>
+      <p>#AI #Fitness #Investing #Nutrition #Cloud</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Educational Blog | Designed with HTML & CSS</p>
+  </footer>
+
+</body>
+</html>

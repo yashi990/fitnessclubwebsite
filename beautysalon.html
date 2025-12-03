@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glow Beauty Salon</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; background:#fdfdfd; color:#333;}
+    header {background:#e91e63; color:#fff; padding:20px; text-align:center;}
+    nav {background:#f06292; text-align:center; padding:10px;}
+    nav a {color:#fff; margin:0 15px; text-decoration:none; font-weight:bold;}
+    nav a:hover {text-decoration:underline;}
+    section {padding:20px;}
+    .services {display:flex; justify-content:space-around;}
+    .service {background:#fff3f5; padding:15px; border-radius:5px; width:30%;}
+    .service h3 {color:#e91e63;}
+    form {max-width:400px; margin:auto; background:#fff3f5; padding:15px; border-radius:5px;}
+    form input, form button {width:100%; padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:5px;}
+    form button {background:#e91e63; color:#fff; border:none; cursor:pointer;}
+    form button:hover {background:#d81b60;}
+    .gallery {display:flex; justify-content:center; flex-wrap:wrap;}
+    .gallery img {width:200px; margin:10px; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.2);}
+    footer {background:#e91e63; color:#fff; text-align:center; padding:15px; margin-top:20px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Glow Beauty Salon</h1>
+    <p>Relax • Refresh • Renew</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#booking">Book Online</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Facials</h3>
+        <p>Rejuvenating facials to refresh your skin and bring out your natural glow.</p>
+      </div>
+      <div class="service">
+        <h3>Hair Spa</h3>
+        <p>Nourishing treatments to strengthen your hair and restore shine.</p>
+      </div>
+      <div class="service">
+        <h3>Makeup</h3>
+        <p>Professional makeup for weddings, parties, and special occasions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book an Appointment</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="date" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section id="gallery">
+    <h2>Before & After</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x200?text=Before" alt="Before">
+      <img src="https://via.placeholder.com/200x200?text=After" alt="After">
+      <img src="https://via.placeholder.com/200x200?text=Before" alt="Before">
+      <img src="https://via.placeholder.com/200x200?text=After" alt="After">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Glow Beauty Salon | Designed with HTML & CSS</p>
+  </footer>
+</body>
+</html>
